@@ -5,4 +5,9 @@ app.get('/', function(request, response){
     response.send('Hello MGT-656!');
 });
 
+app.get('/vast-magpie', function(request, response){
+    response.send('I am vast-magpie');
+});
+
+
 app.listen(process.env.PORT || 4000);
